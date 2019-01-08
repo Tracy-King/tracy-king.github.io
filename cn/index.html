@@ -31,16 +31,57 @@
     <![endif]-->
   </head>
 
-  <body style="background-image:url(../res/background.jpg);background-repeat:no-repeat;background-size:100%">
+  <body>
 
     <div class="site-wrapper">
 
       <div class="site-wrapper-inner">
 
         <div class="cover-container">
+          
+          <div class="mastfoot"> 
+  	<div class="inner">
+	
+	<script type="text/javascript">
+	//<!CDATA[
+	var bodyBgs  = [];
+ 	bodyBgs[0] = "../res/bg1.jpg";
+ 	bodyBgs[1] = "../res/bg2.jpg";
+ 	bodyBgs[2] = "../res/bg3.jpg";
+	
+	var content = [];
+	content[0] = "2017.2.19 拍摄于日本静冈县沼津市内浦长滨";
+	content[1] = "2018.11.27 拍摄于日本东京都八王子市高尾山";
+	content[2] = "2018.9.23 拍摄于日本神奈川县藤泽市江之岛";
+
+ 	var randomBgIndex = Math.round( Math.random() * 2 );
+
+	//输出随机的背景图
+ 	document.write('<style id="background">body{background:url(' + bodyBgs[randomBgIndex] + ') no-repeat 50% 0}</style>');
+	
+	document.write(
+	"	<p style='color:#FFF'>"
+	 + content[randomBgIndex] + 
+	"</p>"); 
+		
+	//]]>
+	//<body style="background-image:url(res/background.jpg);background-repeat:no-repeat;background-size:100%">
+		
+	</script>
+	 
+               
+    <hr/>
+    <p style="color:#FFF">访客数: 
+    <script language="JavaScript" src="counter.js">
+</script><span>&nbsp&nbsp</span><span>&nbsp&nbsp</span>
+              Designed by Tracy King, 2017</p>
+          </div>
+    </div>
 
           <div class="masthead clearfix">
             <div class="inner">
+             
+             
               <h3 class="masthead-brand">“Tracy King” 金瑞东</h3>
               <nav>
                 <ul class="nav masthead-nav">
@@ -53,6 +94,7 @@
                   <ul class="dropdown-menu">
                     <li><a href="../index.html">英文</a></li>
                   </ul>
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -90,16 +132,6 @@
               </a>
             </p>
             
-          </div>
-
-          <div class="mastfoot">
-            <div class="inner">
-              <p style="color:#FFF"> 背景图由本人于2017年2月19日拍摄于日本静冈县沼津市内浦长滨</p>
-              <hr/>
-              <p style="color:#FFF">访问人数: 
-              <script language="JavaScript" src="../counter.js">
-</script><span>&nbsp&nbsp</span><span>&nbsp&nbsp</span>Designed by Tracy King, 2017</p>
-            </div>
           </div>
 
         </div>

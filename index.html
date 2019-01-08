@@ -30,14 +30,56 @@
       <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+  
+  <body>
+  
+ 
 
-  <body style="background-image:url(res/background.jpg);background-repeat:no-repeat;background-size:100%">
-
+ 
     <div class="site-wrapper">
 
       <div class="site-wrapper-inner">
 
         <div class="cover-container">
+          
+          <div class="mastfoot"> 
+  	<div class="inner">
+	
+	<script type="text/javascript">
+	//<!CDATA[
+	var bodyBgs  = [];
+ 	bodyBgs[0] = "res/bg1.jpg";
+ 	bodyBgs[1] = "res/bg2.jpg";
+ 	bodyBgs[2] = "res/bg3.jpg";
+	
+	var content = [];
+	content[0] = "Background photo was taken in Uchiuranagahama, Numazu-shi, Shizuoka-ken, Japan <br/> 2017.2.19 by Tracy King";
+	content[1] = "Background photo was taken in Takaosan, Hachiouji-shi, Tokyo, Japan <br/> 2018.11.27 by Tracy King";
+	content[2] = "Background photo was taken in Enoshima, Fujizawa-shi, Kanekawa-ken, Japan <br/> 2018.9.23 by Tracy King";
+
+ 	var randomBgIndex = Math.round( Math.random() * 2 );
+
+	//输出随机的背景图
+ 	document.write('<style id="background">body{background:url(' + bodyBgs[randomBgIndex] + ') no-repeat 50% 0}</style>');
+	
+	document.write(
+	"	<p style='color:#FFF'>"
+	 + content[randomBgIndex] + 
+	"</p>"); 
+		
+	//]]>
+	//<body style="background-image:url(res/background.jpg);background-repeat:no-repeat;background-size:100%">
+		
+	</script>
+	 
+               
+    <hr/>
+    <p style="color:#FFF">Visitors number: 
+    <script language="JavaScript" src="counter.js">
+</script><span>&nbsp&nbsp</span><span>&nbsp&nbsp</span>
+              Designed by Tracy King, 2017</p>
+          </div>
+    </div>
 
           <div class="masthead clearfix">
             <div class="inner">
@@ -53,6 +95,7 @@
                   <ul class="dropdown-menu">
                     <li><a href="cn/index.html">Chinese</a></li>
                   </ul>
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -92,16 +135,7 @@
             
           </div>
 
-          <div class="mastfoot">
-            <div class="inner">
-              <p style="color:#FFF"> Background photo was taken in Uchiuranagahama, Numazu-shi, Shizuoka-ken, Japan in 2017.2.19 by Tracy King</p>
-              <hr/>
-              <p style="color:#FFF">Visitors number: 
-              <script language="JavaScript" src="counter.js">
-</script><span>&nbsp&nbsp</span><span>&nbsp&nbsp</span>
-              Designed by Tracy King, 2017</p>
-            </div>
-          </div>
+          
 
         </div>
 
