@@ -942,7 +942,7 @@ h3 {
   position: relative;
 }
 
-/* line 75, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_header.scss */
+/* line 75, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_header.scss 
 .header-area .main-header-area .main-menu::before {
   position: absolute;
   left: 0;
@@ -956,7 +956,7 @@ h3 {
   background: #EAEAEA;
   content: '';
   left: -10%;
-}
+}*/
 
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 75, ../../Arafath/CL/December/231. Travel-02/HTML/scss/_header.scss */
