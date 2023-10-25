@@ -48,13 +48,19 @@
  	bodyBgs[0] = "../res/bg1.jpg";
  	bodyBgs[1] = "../res/bg2.jpg";
  	bodyBgs[2] = "../res/bg3.jpg";
+  bodyBgs[3] = "../res/bg4.jpg";
+  bodyBgs[4] = "../res/bg5.jpg";
+  bodyBgs[5] = "../res/bg6.jpg";
 	
 	var content = [];
 	content[0] = "2017.2.19 拍摄于日本静冈县沼津市内浦长滨";
 	content[1] = "2018.11.27 拍摄于日本东京都八王子市高尾山";
 	content[2] = "2018.9.23 拍摄于日本神奈川县藤泽市江之岛";
+  content[3] = "2023.2.3 拍摄于日本北海道小樽市小樽运河";
+  content[4] = "2022.12.29 拍摄于日本山梨县富士河口湖";
+  content[5] = "2022.10.14 拍摄于法国巴黎戴高乐广场凯旋门";
 
- 	var randomBgIndex = Math.round( Math.random() * 2 );
+ 	var randomBgIndex = Math.round( Math.random() * 5 );
 
 	//输出随机的背景图
  	document.write('<style id="background">body{background:url(' + bodyBgs[randomBgIndex] + ') no-repeat 50% 0}</style>');
